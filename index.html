@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+<body>
+    <div class="page">
+        <main class="main">
+            <section class="shapes">                
+            </section>
+        </main>
+    </div>
+
+     <div class="popup">
+        <div class="popup__content">
+          <button class="popup__close">
+            X
+          </button>
+          <p class="popup__text"></p>
+        </div>
+      </div>
+
+    <template class="shape-template">
+        <div class="shape">
+            <div class="shape__type"></div>
+            <button class="shapa__action_perimeter">Perimetro</button>
+            <button class="shapa__action_area">Area</button>
+            <button class="shapa__action_delete">Eliminar</button>
+        </div>
+    </template>
+
+    <script type="module" src="pages/index.js"></script>
+</body>
+</html>
